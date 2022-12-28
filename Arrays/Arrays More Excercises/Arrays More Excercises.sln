@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Encrypt, Sort, and Print
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Pascal Triangle", "2. Pascal Triangle\2. Pascal Triangle.csproj", "{73C81B21-5579-4260-BBC9-F2BCF90A3A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Recursive Fibonacci", "3. Recursive Fibonacci\3. Recursive Fibonacci.csproj", "{5BED5553-DD43-4A7F-882C-323B4707348A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Recursive Fibonacci", "3. Recursive Fibonacci\3. Recursive Fibonacci.csproj", "{5BED5553-DD43-4A7F-882C-323B4707348A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Fold and Sum", "4. Fold and Sum\4. Fold and Sum.csproj", "{A4964E5C-CC2E-4001-ABAA-E1E819934D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Fold and Sum", "4. Fold and Sum\4. Fold and Sum.csproj", "{A4964E5C-CC2E-4001-ABAA-E1E819934D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Longest Increasing Subsequence (LIS)", "5.Longest Increasing Subsequence (LIS)\5.Longest Increasing Subsequence (LIS).csproj", "{529225BC-6381-406C-9709-C8298F35C00C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A4964E5C-CC2E-4001-ABAA-E1E819934D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4964E5C-CC2E-4001-ABAA-E1E819934D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4964E5C-CC2E-4001-ABAA-E1E819934D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529225BC-6381-406C-9709-C8298F35C00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529225BC-6381-406C-9709-C8298F35C00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529225BC-6381-406C-9709-C8298F35C00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529225BC-6381-406C-9709-C8298F35C00C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
