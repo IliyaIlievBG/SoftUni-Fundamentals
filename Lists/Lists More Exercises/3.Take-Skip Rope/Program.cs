@@ -18,6 +18,8 @@ namespace _3.Take_Skip_Rope
             List<int> takeList = new List<int>();
             List<int> skipList = new List<int>();
 
+            StringBuilder newMessage = new StringBuilder();
+
             for (int i = 0; i < numbersList.Count; i++)
             {
                 if (i%2==0)
@@ -30,6 +32,16 @@ namespace _3.Take_Skip_Rope
                 }
             }
 
+            int indexToSkip = 0;
+            for (int i = 0; i < takeList.Count; i++)
+            {
+                List<char> tempList = new List<char>(charsList);
+                tempList = tempList.Skip(indexToSkip).Take(takeList[i]).ToList();
+                newMessage.Append(string.Join("", tempList));
+                indexToSkip += takeList[i] + skipList[i];
+            }
+
+            Console.WriteLine(newMessage);
         }
     }
 }
