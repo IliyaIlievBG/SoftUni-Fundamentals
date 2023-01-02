@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Messaging", "1.Messaging\1.Messaging.csproj", "{BE25F2AB-8EA9-4CBA-9A2A-DAAA82B0FABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Car Race", "2.Car Race\2.Car Race.csproj", "{BDF3582C-EA34-42A3-AE9D-5B0BC62FD171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Car Race", "2.Car Race\2.Car Race.csproj", "{BDF3582C-EA34-42A3-AE9D-5B0BC62FD171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Take-Skip Rope", "3.Take-Skip Rope\3.Take-Skip Rope.csproj", "{5406440D-4F01-4670-983D-08EF231E962D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Take-Skip Rope", "3.Take-Skip Rope\3.Take-Skip Rope.csproj", "{5406440D-4F01-4670-983D-08EF231E962D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Mixed Up Lists", "4. Mixed Up Lists\4. Mixed Up Lists.csproj", "{DBA5B56E-BAFF-49F2-AA5B-79EA4EAA98EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5406440D-4F01-4670-983D-08EF231E962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5406440D-4F01-4670-983D-08EF231E962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5406440D-4F01-4670-983D-08EF231E962D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA5B56E-BAFF-49F2-AA5B-79EA4EAA98EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA5B56E-BAFF-49F2-AA5B-79EA4EAA98EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA5B56E-BAFF-49F2-AA5B-79EA4EAA98EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA5B56E-BAFF-49F2-AA5B-79EA4EAA98EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
