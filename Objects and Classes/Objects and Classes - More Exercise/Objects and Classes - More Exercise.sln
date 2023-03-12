@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Speed Racing", "3. Speed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Raw Data", "4. Raw Data\4. Raw Data.csproj", "{5C18E6B7-B47C-4DF7-8F23-29970C6E97F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Shopping Spree", "5. Shopping Spree\5. Shopping Spree.csproj", "{7A7E6ADC-D1DA-4E56-9E01-0F6DCBE2F34E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5C18E6B7-B47C-4DF7-8F23-29970C6E97F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C18E6B7-B47C-4DF7-8F23-29970C6E97F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C18E6B7-B47C-4DF7-8F23-29970C6E97F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7E6ADC-D1DA-4E56-9E01-0F6DCBE2F34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7E6ADC-D1DA-4E56-9E01-0F6DCBE2F34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7E6ADC-D1DA-4E56-9E01-0F6DCBE2F34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7E6ADC-D1DA-4E56-9E01-0F6DCBE2F34E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

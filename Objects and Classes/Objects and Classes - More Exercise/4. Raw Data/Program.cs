@@ -19,7 +19,7 @@ namespace _4._Raw_Data
                 int enginePower = GetNumericCarInfo(currentCarInfo, 2);
                 int cargoWeight = GetNumericCarInfo(currentCarInfo, 3);
                 string cargoType = GetCarInfo(currentCarInfo, 4);
-                
+
                 Engine currentEngine = new Engine();
                 currentEngine.Speed = engineSpeed;
                 currentEngine.Power = enginePower;
@@ -38,16 +38,16 @@ namespace _4._Raw_Data
             switch (command)
             {
                 case "fragile":
-                    foreach (var item in carsWithFragileCargo)
+                    foreach (var item in carsWithFragileCargo.Where(x => x.Cargo.Weight < 1000))
                     {
-                        if (item.Cargo.Weight < 1000)
-                        {
-                            Console.WriteLine(item.Model);
-                        }
+                        Console.WriteLine(item.Model);
                     }
                     break;
                 case "flamable":
-                    
+                    foreach (var item in carsWithFlamableCargo.Where(x => x.Engine.Power > 250))
+                    {
+                        Console.WriteLine(item.Model);
+                    }
                     break;
             }
 
