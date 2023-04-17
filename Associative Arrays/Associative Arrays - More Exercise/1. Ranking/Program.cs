@@ -19,7 +19,7 @@ namespace _1._Ranking
                 string[] currentContestInfo = contest.Split(':', StringSplitOptions.RemoveEmptyEntries);
                 string contestName = currentContestInfo[0];
                 string contestPassword = currentContestInfo[1];
-              
+
                 Contest currentContest = new Contest(contestName, contestPassword);
                 contests.Add(currentContest);
 
@@ -49,9 +49,8 @@ namespace _1._Ranking
                         {
                             currentUser.Contests.Add(contestName, points);
                         }
-
                     }
-                    else //if user is present in users
+                    else
                     {
                         if (!users[username].Contests.ContainsKey(contestName))
                         {
@@ -61,11 +60,10 @@ namespace _1._Ranking
                         {
                             if (users[username].Contests[contestName] < points)
                             {
-                                users[username].Contests[contestName] = points;                          
+                                users[username].Contests[contestName] = points;
                             }
                         }
                     }
-
                 }
 
                 submission = Console.ReadLine();
@@ -76,13 +74,11 @@ namespace _1._Ranking
             foreach (var student in users.OrderBy(x => x.Key))
             {
                 Console.WriteLine(student.Key);
-                foreach (var (studentContest, points) in student.Value.Contests.OrderByDescending(x=> x.Value))
+                foreach (var (studentContest, points) in student.Value.Contests.OrderByDescending(x => x.Value))
                 {
                     Console.WriteLine($"#  {studentContest} -> {points}");
                 }
-
             }
-            
         }
 
         private static bool CheckIfSubmissionIsValid(List<Contest> contests, string contestName, string contestPassword)
