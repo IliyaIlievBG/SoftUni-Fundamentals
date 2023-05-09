@@ -21,42 +21,42 @@ namespace _02._Judge
 
                 if (contests.ContainsKey(contest))
                 {
-                    if (contests[contest].ContainsKey(names))
+                    if (contests[contest].ContainsKey(name))
                     {
-                        if (contests[contest][names] < point)
+                        if (contests[contest][name] < point)
                         {
-                            contests[contest][names] = point;
+                            contests[contest][name] = point;
                         }
                     }
                     else
                     {
-                        contests[contest].Add(names, point);
+                        contests[contest].Add(name, point);
                     }
                 }
                 else
                 {
                     contests.Add(contest, new Dictionary<string, int>());
-                    contests[contest].Add(names, point);
+                    contests[contest].Add(name, point);
                 }
 
-                if (individualStatistics.ContainsKey(names))
+                if (individualStatistics.ContainsKey(name))
                 {
-                    if (individualStatistics[names].ContainsKey(contest))
+                    if (individualStatistics[name].ContainsKey(contest))
                     {
-                        if (individualStatistics[names][contest] < point)
+                        if (individualStatistics[name][contest] < point)
                         {
-                            individualStatistics[names][contest] = point;
+                            individualStatistics[name][contest] = point;
                         }
                     }
                     else
                     {
-                        individualStatistics[names].Add(contest, point);
+                        individualStatistics[name].Add(contest, point);
                     }
                 }
                 else
                 {
-                    individualStatistics.Add(names, new Dictionary<string, int>());
-                    individualStatistics[names].Add(contest, point);
+                    individualStatistics.Add(name, new Dictionary<string, int>());
+                    individualStatistics[name].Add(contest, point);
                 }
 
             }
