@@ -15,7 +15,7 @@ namespace _02._Judge
 
             while ((input = Console.ReadLine()) != "no more time")
             {
-                string names = input.Split(" -> ")[0].ToString();
+                string name = input.Split(" -> ")[0].ToString();
                 string contest = input.Split(" -> ")[1].ToString();
                 int point = int.Parse(input.Split(" -> ")[2].ToString());
 
