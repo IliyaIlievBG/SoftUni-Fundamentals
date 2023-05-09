@@ -15,48 +15,48 @@ namespace _02._Judge
 
             while ((input = Console.ReadLine()) != "no more time")
             {
-                string name = input.Split(" -> ")[0].ToString();
+                string names = input.Split(" -> ")[0].ToString();
                 string contest = input.Split(" -> ")[1].ToString();
                 int point = int.Parse(input.Split(" -> ")[2].ToString());
 
                 if (contests.ContainsKey(contest))
                 {
-                    if (contests[contest].ContainsKey(name))
+                    if (contests[contest].ContainsKey(names))
                     {
-                        if (contests[contest][name] < point)
+                        if (contests[contest][names] < point)
                         {
-                            contests[contest][name] = point;
+                            contests[contest][names] = point;
                         }
                     }
                     else
                     {
-                        contests[contest].Add(name, point);
+                        contests[contest].Add(names, point);
                     }
                 }
                 else
                 {
                     contests.Add(contest, new Dictionary<string, int>());
-                    contests[contest].Add(name, point);
+                    contests[contest].Add(names, point);
                 }
 
-                if (individualStatistics.ContainsKey(name))
+                if (individualStatistics.ContainsKey(names))
                 {
-                    if (individualStatistics[name].ContainsKey(contest))
+                    if (individualStatistics[names].ContainsKey(contest))
                     {
-                        if (individualStatistics[name][contest] < point)
+                        if (individualStatistics[names][contest] < point)
                         {
-                            individualStatistics[name][contest] = point;
+                            individualStatistics[names][contest] = point;
                         }
                     }
                     else
                     {
-                        individualStatistics[name].Add(contest, point);
+                        individualStatistics[names].Add(contest, point);
                     }
                 }
                 else
                 {
-                    individualStatistics.Add(name, new Dictionary<string, int>());
-                    individualStatistics[name].Add(contest, point);
+                    individualStatistics.Add(names, new Dictionary<string, int>());
+                    individualStatistics[names].Add(contest, point);
                 }
 
             }
