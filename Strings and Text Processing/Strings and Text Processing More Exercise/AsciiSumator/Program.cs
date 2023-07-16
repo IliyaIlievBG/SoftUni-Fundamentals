@@ -13,9 +13,6 @@ namespace AsciiSumator
 
             string charsToSum = Console.ReadLine();
 
-            //int firstCharAsciiCode = firstChar;
-            //int secondAsciiCode = secondChar;
-
             int sum = 0;
             for (int i = 0; i < charsToSum.Length ; i++)
             {
