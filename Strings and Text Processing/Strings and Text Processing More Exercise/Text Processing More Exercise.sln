@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Extract Person Information", "1. Extract Person Information\1. Extract Person Information.csproj", "{34D2C7E2-1C7A-4255-8E4A-F0BF6B9FDD18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsciiSumator", "AsciiSumator\AsciiSumator.csproj", "{36A75DE8-5B1D-40B7-8E8F-1D3EB5356C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsciiSumator", "AsciiSumator\AsciiSumator.csproj", "{36A75DE8-5B1D-40B7-8E8F-1D3EB5356C7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreasureFind", "TreasueFind\TreasureFind.csproj", "{A163150E-D76B-4A1B-BAC6-3A3712017094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseCode", "MorseCode\MorseCode.csproj", "{BBF275E5-B930-45A0-A845-23A3D6E608C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{36A75DE8-5B1D-40B7-8E8F-1D3EB5356C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36A75DE8-5B1D-40B7-8E8F-1D3EB5356C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36A75DE8-5B1D-40B7-8E8F-1D3EB5356C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A163150E-D76B-4A1B-BAC6-3A3712017094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A163150E-D76B-4A1B-BAC6-3A3712017094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A163150E-D76B-4A1B-BAC6-3A3712017094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A163150E-D76B-4A1B-BAC6-3A3712017094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF275E5-B930-45A0-A845-23A3D6E608C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF275E5-B930-45A0-A845-23A3D6E608C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF275E5-B930-45A0-A845-23A3D6E608C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF275E5-B930-45A0-A845-23A3D6E608C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
